@@ -1,0 +1,21 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Générateur V0{% endblock %}
+
+{% block body %}
+
+{% apply inline_css(source("reset.css"), source("genName.css")) %}
+
+
+<div class="example-wrapper">
+    <h1>Bonjour jeune néophyte ! ✅</h1>
+
+<h2>Tu as l'intention de te lancer dans une aventure RPGesque ? J'ai été conçu pour toi. Clique sur l'un de mes boutons et je te proposerai un nom selon l'espèce demandée : </h2>
+<div class="flex">
+<a class="dwarf" href="{{ path('dwarf') }}">Je souhaite être un Nain</a>
+<a class="elf" href="{{ path('elf') }}">Je souhaite être un Elfe</a>
+<a class="human" href="{{ path('human') }}">Je souhaite être un Humain</a>
+</div>
+</div>
+{% endapply %}
+{% endblock %}

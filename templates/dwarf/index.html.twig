@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue, Nain{% endblock %}
+
+{% block body %}
+
+{% apply inline_css(source("reset.css"), source("genName.css")) %}
+
+
+<div class="example-wrapper">
+    <h1 class="name">Alors tu souhaites être un nain ?</h1>
+
+<h2 class="render">Ce nom t'a été attribué, fais en bon usage :</h2>
+<div class="answer">
+<div class="namee">{{dwarf1.firstname}} {{dwarf2.name}}</div>
+<div><a class="back" href="{{ path('gen_name') }}">Retour à l'accueil ?</a></div>
+</div>
+</div>
+{% endapply %}
+{% endblock %}

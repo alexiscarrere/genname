@@ -1,0 +1,20 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Bienvenue, Humain{% endblock %}
+
+{% block body %}
+
+{% apply inline_css(source("reset.css"), source("genName.css")) %}
+
+
+<div class="example-wrapper">
+    <h1 class="name">Alors tu souhaites être un humain ?</h1>
+
+<h2 class="render">Ce nom t'a été attribué, fais en bon usage :</h2>
+<div class="answer">
+<div class="namee">{{human1.firstname}} {{human2.name}}</div>
+<div><a class="back" href="{{ path('gen_name') }}">Retour à l'accueil ?</a></div>
+</div>
+</div>
+{% endapply %}
+{% endblock %}

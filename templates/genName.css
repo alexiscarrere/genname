@@ -1,0 +1,78 @@
+body {
+    height: 100%;
+    background-image: url(https://wallup.net/wp-content/uploads/2018/10/05/731900-shadow-realms-fantasy-mmo-rpg-sci-fi-magic-1srealms-action-fighting-dark-artwork.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+html {
+    height: 100%;
+}
+  
+h1 {
+    text-align: center;
+    padding: 2.5em;
+    font-size: 3em;
+    color: rgb(186, 211, 211)
+}
+  
+h2 {
+    text-align: center;
+    padding: 1em;
+    font-size: 2em;
+    color: rgba(146, 148, 144);
+    opacity: 1;
+}
+
+a {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    height: auto;
+    text-align: center;
+    border: 3px solid rgb(43, 65, 65);
+    margin: 5em 10px 0em 10px;
+    padding: 2em;
+    justify-content: space-between;
+    font-size: xx-large;
+    background-color: black;
+    color: lightslategray;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.name {
+  color: aliceblue;
+}
+.render {
+  color: azure;
+}
+
+.answer {
+  display:flex;
+  justify-content: center;
+}
+.namee {
+  display: inline-flex;
+  flex-wrap: nowrap;
+  height: auto;
+  text-align: center;
+ padding: 3em;
+  font-size: 4em;
+  color: rgb(9, 18, 27);
+  font-family: fantasy;
+  font-style: oblique;
+  text-transform: capitalize;
+  position: fixed;
+}
+.back {
+  color: rgb(255, 255, 255);
+  padding: none;
+  opacity: 0.4;
+  flex-wrap: wrap;
+  border:none
+
+
+}

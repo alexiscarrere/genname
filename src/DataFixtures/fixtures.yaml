@@ -1,0 +1,16 @@
+App\Entity\Dwarf:
+    dwarf_{1..100}:
+        name: '<DNames()>'
+        firstname: '<DFirstNames()>'
+
+App\Entity\Elf:
+    elf_{1..100}:
+        name: '<ENames()>'
+        firstname: '<EFirstNames()>'
+        title: '<Titles()>' 
+
+App\Entity\Human:
+    human{1..500}:
+        name: '<HNames()>'
+        firstname: '<HFirstNames()>'
+        title: '<Titles()>'       
