@@ -13,8 +13,10 @@
 <h2 class="render">Ce nom t'a été attribué, fais en bon usage :</h2>
 <div class="answer">
 <div class="namee">{{dwarf1.firstname}} {{dwarf2.name}}</div>
-<div><a class="back" href="{{ path('gen_name') }}">Retour à l'accueil ?</a></div>
-</div>
+<div></div><a class="back" href="{{ path('gen_name') }}">Retour à l'accueil ?</a>
+    
+    </div><a class="back" href=" {{ path('dwarf') }}">Ce nom ne te convient pas ? Réesaie</a>
+
 </div>
 {% endapply %}
 {% endblock %}
